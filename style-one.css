@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:burlywood;
+    border-radius: 12px;
+    margin: 12px;
+    padding:12px;
+    width: 100%;
+    /* font-family:cursive; */
+    font-size: larger;
+
+}
+fieldset{
+    text-align: center;
+    background-color: white;
+}
+
+input[type="text"],input[type="email"],textarea{
+
+    width:100%;
+    padding:12px;
+    border :1px dotted blue;
+    border-radius:15px;
+}
+
+input[type="submit"]
+{
+    background-color:white;
+    cursor: pointer;
+    border:2px dotted blue;
+    border-radius:15px;
+    width:100%;
+    font-size:larger;
+}
+
+/* input [type="submit"]:hover
+{
+    /* cursor:ponter; */
+    /* background-color:blueviolet;
+} */
+
+/* input[type="submit"]:hover{
+    background-color:pink;
+}  */
+fieldset p{
+    text-align: left;
+}
